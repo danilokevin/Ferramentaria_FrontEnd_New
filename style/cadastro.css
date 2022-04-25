@@ -1,0 +1,29 @@
+.box-form {
+    border: solid 2px gray;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.box-logo {
+    background-color: #5A6199;
+    border-radius: 20px;
+}
+
+
+
+h2 {
+    color: white;
+    margin-top: 150px;
+}
+
+button {
+    justify-content: end;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

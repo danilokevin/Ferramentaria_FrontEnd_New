@@ -1,0 +1,34 @@
+.box {
+    margin-top: 100px;
+
+}
+
+.col-4 {
+    margin-top: 90px;
+}
+
+img {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.box-img {
+    background-color: #5A6199;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img h1 {
+    color: white;
+
+}
+
+.box-img p {
+    color: white;
+    font-size: 20px;
+    
+}

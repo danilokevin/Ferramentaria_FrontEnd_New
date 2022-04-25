@@ -1,0 +1,40 @@
+.nav {
+    border-bottom: solid 1px black;
+}
+
+ul a {
+    color: black;
+    font-size: 20px;
+}
+
+.active {
+    color: #FCC046;
+    font-weight: bold;
+
+}
+
+.btn-primary {
+    background-color: #FCC046;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #C4C4C4;
+    color: black;
+    width: 100%;
+    height: 30px;    
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}

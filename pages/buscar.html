@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/buscar.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <title>Buscar ferramenta</title>
+</head>
+<body>
+    <nav>
+        <div class="container-fluid">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Ferramentaria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/cadastro.html">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/login.html">Entrar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Busque uma ferramenta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/sobre.html">Sobre Nós</a>
+                </li>
+            </ul>
+
+        </div>
+        
+
+    </nav>
+    <main>
+        <div class="container-fluid">
+          <section class="menu-busca">
+            <h1 class="h1">Qual ferramenta você está procurando?</h1>
+            
+            <div class="busca">
+              
+              <select id="select-ferramenta" name="ferramenta" id="ferramenta" title="Selecione a ferramenta (opcional)">
+                <option value="0" selected disabled>Qual ferramenta?</option>
+                <option value="Todas">Todas</option>
+                <option value="Caixa de Ferramentas">Caixa de Ferramentas</option>
+                <option value="Chave de Fenda">Chave de Fenda</option>
+                <option value="Furadeira">Furadeira</option>
+                <option value="Martelo">Martelo</option>
+                <option value="Lixadeira">Lixadeira</option>
+                <option value="Parafuseira">Parafuseira</option>
+                <option value="Serradeira">Serradeira</option>
+              </select>
+
+              <button class="btn-primary" id="btn_buscar">Buscar</button>
+              
+              
+            </div>
+            
+      
+          </section>
+          <section>
+            <div id="resultado-pesquisa">   
+          </section>
+        
+            
+        </div>
+
+    </main>
+
+    
+
+    
+
+    
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../scripts/pesquisa.js"></script>
+</body>
+</html>

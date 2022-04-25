@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.imagem{
+    position: relative;
+    max-width: 300px;
+}
+
+.conteudo-sobre h1{
+    color: #5A6199;
+}
+
+.conteudo-sobre p{
+    margin-top: 20px;
+    
+}
+
+
