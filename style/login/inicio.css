@@ -1,0 +1,14 @@
+.anuncios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#usuario {
+    width: 150px;
+}
+
+#relacao-anuncios {
+    margin: 1px;
+}
